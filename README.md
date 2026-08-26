@@ -36,12 +36,6 @@ skill-tw-legal-search-console        （主控台，本地整合層，自帶風�
                                           Claude Code 內建，非本專案技能）
 ```
 
-`skill-tw-court-records-search`、`skill-tw-person-legal-check`（來自
-`github.com/wenchiehlee/skills`）曾是原始設計依賴，但實際查核流程從未真正呼叫它們——
-`skill-tw-legal-rag` 的語義檢索完全取代了前者「人工繞司法院驗證碼查詢」的方法，後者的
-風險分級規則也已直接內建進 `skill-tw-legal-search-console`。兩者已從本專案與中央 skill
-登錄庫移除，避免掛著不會執行的死依賴。
-
 ## 目錄結構
 
 - `.claude/skills/` — Claude Code 這個 session 實際載入的技能（與 `skills/` 內容相同）。
