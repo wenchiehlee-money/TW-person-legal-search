@@ -39,8 +39,6 @@ skill-tw-legal-search-console        （主控台，本地整合層，自帶風�
 ```
 
 ## 目錄結構
-
-- `.claude/skills/` — Claude Code 這個 session 實際載入的技能（與 `skills/` 內容相同）。
 - `skills/` — 技能原始碼（可攜版本，方便版本控管與同步到其他專案）：
   - `skill-tw-legal-search-console/` — 本專案的主控台技能，串接下方一個依賴。
   - `skill-tw-legal-rag/` — vendored from
